@@ -4,8 +4,8 @@ import inquirer from "inquirer";
 
 // Asking question from users through inquirer
 const answers = await inquirer.prompt([
-    {message: "Enter First Number", type:"number", name:"firstNumber"},
-    {message: "Enter Second Number", type:"number", name:"secondNumber"},
+    {message: "Enter  Your First Number", type:"number", name:"firstNumber"},
+    {message: "Enter Your Second Number", type:"number", name:"secondNumber"},
     {message: "Select one operator to perform operation",
     type: "list",
     name: "operator",
@@ -33,7 +33,7 @@ else{
 
 }
 
-
+console.log("The End");
 
 
 
